@@ -17,7 +17,7 @@ plugins:
 
 
 
-url    : "https://github.com/SongGunHo/SongPage.githubio" # the base hostname & protocol for your site, e.g. http://example.com
+url    : "https://songgunho.github.io/SongPage.githubio/" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Your Awesome Website
