@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "기술 스텍"
-    text: "Lorem ipsum"
+    text: "technology stack"
     section: services
     list:
       - title: "front end"
