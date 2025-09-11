@@ -1,31 +1,28 @@
 ---
-title: gil-beot-be
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+title: secondhand2
+subtitle: Lorem ipsum dolor sit amet consectetur.
+image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
+alt: Keep Exploring
 
 caption:
-  title: ai번아웃을 위한 여행 추천 사이트
-  subtitle: Illustration
-  thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
+  title: 중고 거래 사이트
+  subtitle: Graphic Design
+  thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-thumbnail.jpg
 ---
-## 프로젝트 개요 
-- Date: 2025.09 ~ (작업 중)
-- Client: 코리아 아카데미  개인 프로젝트
+
+## 프로젝트 개요
+
+- Date: 2025.05 ~ 2025.06.10
+- Client: 코리아 아카데미 팀 프로젝트
 - Category: Back-end
-- Technologies: Spring Boot, MySql
+- Technologies: JavaScript, HTML, CSS, Spring Boot, MySql
 - Role: Back-end Developer
-- GitHub / Link: [https://github.com/SongGunHo/gil-beot-be.git](https://github.com/사용자명/프로젝트)
+- GitHub / Link: [https://github.com/SongGunHo/secondhand2.git](https://github.com/사용자명/프로젝트)
+- 역활은 회원 가입 페이지, 로그인 기능
 
-## 주요 기능 
--  회원 가입 기능 
--  로그인 기능 
--  관리자 기능 
--  소셜 로그인 기능 
--  공공 데이터 셋
-{:.list-inline}
+## 주요 기능
 
-
-
-## 문제 해결 사례 
--  아직 만드는 중이라서 오류 잡으면서 하고 있습니다
+- 회원 가입 기능
+- 로그인 기능
+- 카카오 주소 api
+  {:.list-inline}
