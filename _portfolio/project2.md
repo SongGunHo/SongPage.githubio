@@ -19,6 +19,7 @@ caption:
 - Date: 2025.07.15 ~ 2025.08.11  
 - Client: 코리아 아카데미 팀 프로젝트
 - GitHub / Link: [https://github.com/Team2-chatBoard/chatboard.git](https://github.com/사용자명/프로젝트)
+- personnel: 6명
 - 역활: 영화 대본 리스트 구현 
 
 ## 주요 기능

@@ -19,6 +19,7 @@ caption:
 - Date: 2025.05 ~ (수정 중)
 - Client: 코리아 아카데미 팀 프로젝트
 - GitHub / Link: [https://github.com/SongGunHo/secondhand2.git](https://github.com/사용자명/프로젝트)
+- personnel: 3명
 - 역활 회원 가입 페이지, 로그인 기능
 
 ## 주요 기능

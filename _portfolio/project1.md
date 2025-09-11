@@ -19,6 +19,7 @@ caption:
 - Date: 2025.08 ~ 2025.09.01
 - Client: 코리아 아카데미 팀 프로젝트
 - GitHub / Link: [https://github.com/vinllage/vinllage-fe.git](https://github.com/사용자명/프로젝트)
+- personnel: 6명
 - 역활 : 회원 가입 로그인 , 소셜 로그인 기능 이메일 인증 기능 
 
 ## 주요 기능 
