@@ -20,7 +20,7 @@ Use this area to describe your project.
 
 - Date: 2022.07 ~ 2022.08.25
 - Client: 인천 일보 아카 데미 개인 프로젝트
-- Category: Front-end
+- Category: Back-end
 - Technologies: JavaScript, HTML, CSS,  Spring Boot, MySql
-- Role: Front-end Developer
-- GitHub / Link: [https://github.com/vinllage/vinllage-fe.git](https://github.com/사용자명/프로젝트)
+- Role: Back-end Developer
+- GitHub / Link: [https://github.com/SongGunHo/caffebeans.git](https://github.com/사용자명/프로젝트)

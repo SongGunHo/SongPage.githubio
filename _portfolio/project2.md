@@ -17,6 +17,9 @@ Use this area to describe your project.
 - 카카오 주소 api
   {:.list-inline}
 
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
+- Date: 2025.05 ~ 2025.06.10
+- Client: 코리아 아카데미 팀 프로젝트
+- Category: Back-end
+- Technologies: JavaScript, HTML, CSS,  Spring Boot, MySql
+- Role: Back-end Developer
+- GitHub / Link: [https://github.com/SongGunHo/secondhand2.git](https://github.com/사용자명/프로젝트)
