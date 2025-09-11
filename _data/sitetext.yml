@@ -22,15 +22,15 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "front end"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: ""
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
       - title: "backend"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: ""
         icon: fas fa-laptop
       - title: "Tools"
-        desc: "Your description here, full **Markdown** support"
+        desc: ""
         icon: fab fa-markdown
 
   portfolio:
