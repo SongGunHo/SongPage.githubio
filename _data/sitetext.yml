@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: 송근호
-    text: 다시 날아오르고 싶은 개발자 입니다
+    title: 다시 날아오르고 싶은 개발자 입니다
+    text: 
     button: Tell Me More
     buttonlink: "#services"
 
@@ -148,7 +148,7 @@ en: &DEFAULT_EN
     legal: "Privacy Policy"
     name: "송근호"
     Email: "jigu1993@naver.com"
-    
+
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"
