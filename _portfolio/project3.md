@@ -23,6 +23,9 @@ Use this area to describe your project.
 - **Date**: 2025.05.15 ~ 2025.06.10  
 - **Client**: 코리아 아카데미 팀 프로젝트  
 - **Category**: Front-end  
-- **Technologies**: React, JavaScript, HTML, CSS  
+- **Technologies**: JavaScript, HTML, CSS  
 - **Role**: Front-end Developer  
 - **GitHub / Link**: [https://github.com/SongGunHo/T0-list.git](https://github.com/SongGunHo/T0-list.git)
+
+### 문제점 
+-  아무래도 다시 js 코드와 css 로 작업을 하다보니 많이 어려운 경우 가 많았습니다
