@@ -18,7 +18,7 @@ caption:
 - Technologies: JavaScript, HTML, CSS, Spring Boot, MySql
 - Role: Back-end Developer
 - GitHub / Link: [https://github.com/SongGunHo/secondhand2.git](https://github.com/사용자명/프로젝트)
-- 역활은 회원 가입 페이지, 로그인 기능
+- 역활 회원 가입 페이지, 로그인 기능
 
 ## 주요 기능
 
