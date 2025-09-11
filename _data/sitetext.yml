@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: 다시 날아오르고 싶은 개발자 입니다
-    text: 
+    text:
     button: Tell Me More
     buttonlink: "#services"
 
@@ -21,13 +21,13 @@ en: &DEFAULT_EN
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
+      - title: "front end"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+      - title: "backend"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      - title: "Tools"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
 
