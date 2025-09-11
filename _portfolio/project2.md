@@ -1,20 +1,21 @@
 ---
-title: 중고 거리 사이트
+title: secondhand2
 subtitle: Lorem ipsum dolor sit amet consectetur.
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
 alt: Keep Exploring
 
 caption:
-  title: 중고 거래 사이트 
+  title: 중고 거래 사이트
   subtitle: Graphic Design
   thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-thumbnail.jpg
 ---
 
 Use this area to describe your project.
--  회원 가입 기능 
--  로그인 기능 
--  카카오 주소 api
-{:.list-inline}
+
+- 회원 가입 기능
+- 로그인 기능
+- 카카오 주소 api
+  {:.list-inline}
 
 - Date: January 2017
 - Client: Explore
