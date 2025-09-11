@@ -6,7 +6,7 @@ alt: Shirts on a hanger
 
 caption:
   title: ai번아웃을 위한 여행 추천 사이트
-  subtitle: Illustration
+  subtitle: A site for AI burnout
   thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
 ---
 ## 프로젝트 개요 
