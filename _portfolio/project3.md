@@ -25,4 +25,4 @@ Use this area to describe your project.
 - **Category**: Front-end  
 - **Technologies**: React, JavaScript, HTML, CSS  
 - **Role**: Front-end Developer  
-- **GitHub / Link**: [프로젝트 링크](https://github.com/SongGunHo/T0-list.git)
+- **GitHub / Link**: [https://github.com/SongGunHo/T0-list.git](https://github.com/SongGunHo/T0-list.git)
