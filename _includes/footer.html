@@ -67,16 +67,82 @@
         </ul>
       </div>
     </div>
+<footer class="site-footer" style="background-color:#f8f9fa; padding:20px; text-align:center;">
   <div>
-    <p>이름: {{ site.footer.name }}</p>
-  <p>Email: <a href="mailto:{{ site.footer.email }}">{{ site.footer.email }}</a></p>
-  <p>Mobile: <a href="tel:{{ site.footer.mobile }}">{{ site.footer.mobile }}</a></p>  
-  <address>
-  <a href="https://maps.google.com/?q={{ site.footer.address | uri_escape }}" target="_blank">
-    {{ site.footer.address }}
-  </a>
-</address>
+    <p>Email: <a href="mailto:jigu1993@naver.com">jigu1993@naver.com</a></p>
+    <p>Mobile: <a href="tel:01022533951">010-2253-3951</a></p>
+    <address>인천시 미추홀구 낙섬 동로 68-17 성동빌라 다동 401호</address> 
+    <address><!-- Footer -->
+<footer class="footer site-footer" id="footer" style="background-color:#f8f9fa; padding:20px; text-align:center;">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Copyright -->
+      <div class="col-md-4">
+        <span>&copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          {% for link in site.data.sitetext.footer.social %}
+          <li class="list-inline-item">
+            {% if link.url %}
+            <a href="{{ link.url }}">
+              {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+            </a>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- Legal -->
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li class="list-inline-item">
+            <a href="legal">{{ site.data.sitetext.footer.legal | default: "Privacy Policy" }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer Contact Info -->
+    <div style="margin-top:20px;">
+      <p>이름: {{ site.footer.name }}</p>
+      <p>Email: <a href="mailto:{{ site.footer.email }}">{{ site.footer.email }}</a></p>
+      <p>Mobile: <a href="tel:{{ site.footer.mobile }}">{{ site.footer.mobile }}</a></p>  
+      <address>
+        <a href="https://maps.google.com/?q={{ site.footer.address | uri_escape }}" target="_blank">
+          {{ site.footer.address }}
+        </a>
+      </address>
+    </div>
   </div>
+</footer>
+
+{% if page.layout == "page" %}
+<script>
+  fixPageShort();
+  function fixPageShort() {
+    if (window.innerHeight > document.body.offsetHeight) {
+      const f = document.getElementById("footer");
+      f.style.position = "fixed";
+      f.style.bottom = 0;
+      f.style.left = 0;
+      f.style.right = 0;
+      f.style.width = "100%";
+    }
+  }
+</script>
+{% endif %}
+<!-- End Footer -->
+
+      <a href="https://maps.google.com/?q={{ site.footer.address | uri_escape }}" target="_blank">
+        {{ site.footer.address }}
+      </a>
+    </address>
+  </div>
+</footer>
     {% endif %}
   </div>
 </footer>
