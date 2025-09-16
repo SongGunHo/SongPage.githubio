@@ -1,7 +1,7 @@
 ---
 title: T0-list
 subtitle: 팀 프로젝트 Front-end 개발
-image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
+image: /assets/img/vinllage.jpg
 alt: Keep Exploring
 
 caption:
@@ -11,7 +11,6 @@ caption:
 ---
 
 ## 기술 스텍
-
 - **Category**: Front-end
 - **Technologies**: JavaScript, HTML, CSS
 - **Role**: Front-end Developer
