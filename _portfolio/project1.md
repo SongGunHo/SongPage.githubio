@@ -1,7 +1,7 @@
 ---
 title: vinllage-fe
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: imgage/vinliage/vinliage.jpg
+image: /_portfolio/image/vinliage/vinllage.jpg
 alt: Shirts on a hanger
 
 caption:
