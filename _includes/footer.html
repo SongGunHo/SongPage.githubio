@@ -68,14 +68,14 @@
       </div>
     </div>
   <div>
-    <p>이름: <a href="name: 송근호">송근호</a></p>
-    <p>Email: <a href="mailto:jigu1993@naver.com">jigu1993@naver.com</a></p>
-    <p>Mobile: <a href="tel:01022533951">010-2253-3951</a></p>
-    <address>
-     <a href="https://maps.google.com/?q=인천시%20낙섬동로%2068-17%20성동%20빌라%20다동%20401호" target="_blank">
-      인천시 낙섬동로 68-17 성동 빌라 다동 401호
-      </a>
-    </address>
+    <p>이름: {{ site.footer.name }}</p>
+  <p>Email: <a href="mailto:{{ site.footer.email }}">{{ site.footer.email }}</a></p>
+  <p>Mobile: <a href="tel:{{ site.footer.mobile }}">{{ site.footer.mobile }}</a></p>  
+  <address>
+  <a href="https://maps.google.com/?q={{ site.footer.address | uri_escape }}" target="_blank">
+    {{ site.footer.address }}
+  </a>
+</address>
   </div>
     {% endif %}
   </div>
