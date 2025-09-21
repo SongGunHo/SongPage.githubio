@@ -151,7 +151,8 @@ en: &DEFAULT_EN
     name: "송근호"
     Email: "jigu1993@naver.com"
     Mobile: "010-2253-3951"
-    Adderss: "인천시 미추홀구 낙섬 동로 68-17 성동빌라 다동 401호 "
+    Address: "인천시 미추홀구 낙섬 동로 68-17 성동빌라 다동 401호"
+
 
     # social:
     #   - url: https://twitter.com
@@ -381,8 +382,8 @@ es: &DEFAULT_ES
     button: Ver más
     buttonlink: "#servicios"
 
-  services:
-    title: "Servicios"
+  Skills:
+    title: "Skills"
     text: "Lorem ipsum"
     section: servicios
     list:
