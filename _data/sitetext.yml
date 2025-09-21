@@ -382,20 +382,30 @@ es: &DEFAULT_ES
     button: Ver más
     buttonlink: "#servicios"
 
-  Skills:
-    title: "Skills"
-    text: "Lorem ipsum"
-    section: servicios
-    list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
+Skills:
+  title: "Skills"
+  text: "Lorem ipsum"
+  section: servicios
+  list:
+    - title: "HTML5"
+      icon: /assets/img/skills/html5.png
+    - title: "CSS3"
+      icon: /assets/img/skills/css3.png
+    - title: "JavaScript"
+      icon: /assets/img/skills/javascript.png
+    - title: "React"
+      icon: /assets/img/skills/react.png
+    - title: "Node.js"
+      icon: /assets/img/skills/node.png
+    - title: "Git"
+      icon: /assets/img/skills/git.png
+    - title: "Github"
+      icon: /assets/img/skills/github.png
+    - title: "TypeScript"
+      icon: /assets/img/skills/typescript.png
+    - title: "Next.js"
+      icon: /assets/img/skills/nextjs.png
+
 
   portfolio:
     title: "Portafolio"
