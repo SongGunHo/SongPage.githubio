@@ -1,63 +1,55 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
-# If you change this file, please restart the server process.
+# ===================================
+# 기본 정보
+# ===================================
+title: "송근호 포트폴리오"
+email: "jigu1993@naver.com"
+description: "백엔드 및 AI 개발자 송근호 포트폴리오"
 
-# Site settings
-# are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-remote_theme: raviriley/agency-jekyll-theme
-plugins:
-  - jekyll-remote-theme
-# 사이트 기본 도메인 (⚠️ 뒤에 경로 절대 붙이지 말 것)
+# GitHub Pages (사용자 페이지 기준)
 url: "https://songgunho.github.io"
-# 저장소가 프로젝트 페이지일 때 사용
-# 예: https://songgunho.github.io/SongPage.githubio
-baseurl: "/SongPage.githubio"
+baseurl: ""
 
-# ================================
-# 사이트 기본 정보 (원하는 값으로 수정 가능)
-# ================================
-title: 송근호
-email: your-email@example.com  # ← 실제 이메일로 변경 권장
-description: "Site description"
-author: 송근호
-footer:
-  name: "송근호"
-  email: "jigu1993@naver.com"
-  mobile: "010-2253-3951"      # ← 공개 원치 않으면 삭제 가능
-  address: "인천시 미추홀구"     # ← 상세 주소는 축소 권장
-
-locale: "en-US" # See available languages in _data/sitetext.yml
-
-# ================================
+# ===================================
 # 언어 설정
-# ================================
+# ===================================
 locale: "en"
 
-# ================================
-# 구글 애널리틱스 (선택)
-# ================================
+# ===================================
+# 로고 (선택)
+# ===================================
+logo:
+  path: ""
+  height: 52
+
+# ===================================
+# Google Analytics (선택)
+# ===================================
 analytics:
   google:
 
-# ================================
-# 컬렉션 설정 (포트폴리오)
-# ================================
+# ===================================
+# 컬렉션 설정 (⭐ 중요)
+# ===================================
 collections:
   portfolio:
+    output: true
 
-# ================================
-# 마크다운 엔진
-# ================================
+# ===================================
+# Markdown 설정
+# ===================================
 markdown: kramdown
+permalink: pretty
 
-# ================================
-# Formspree (⚠️ 실제 ID로 교체해야 작동)
-# ================================
-formspree_form_path: "f/your-form-id"
+# ===================================
+# 기본 플러그인
+# ===================================
+plugins:
+  - jekyll-feed
+
+# ===================================
+# 제외 파일
+# ===================================
+exclude:
+  - README.md
+  - LICENSE.txt
+  - node_modules
