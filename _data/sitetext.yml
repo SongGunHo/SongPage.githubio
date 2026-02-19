@@ -11,33 +11,31 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: 다시 날아오르고 싶은 개발자 입니다
-    text:
-    button: Tell Me More
-    buttonlink: "#services"
+  title: "송근호"
+  text: "다시 날아오르고 싶은 개발자입니다"
+  button: "포트폴리오 보기"
+  buttonlink: 
 
-  services:
-    title: "기술 스텍"
-    text: "technology stack"
-    section: services
-    list:
-      - title: "front end"
-        desc: ""
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "backend"
-        desc: ""
-        icon: fas fa-laptop
-      - title: "Tools"
-        desc: ""
-        icon: fab fa-markdown
+services:
+  title: "기술 스택"
+  text: "Technology Stack"
+  section: services
+  list:
+    - title: "Front-end"
+      desc: "React, Next.js, TypeScript"
+      icon: fas fa-laptop
+    - title: "Back-end"
+      desc: "Spring Boot, MySQL"
+      icon: fas fa-server
+    - title: "Tools"
+      desc: "Git, Docker, Figma"
+      icon: fas fa-tools
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "프로젝트"
+    text: "직접 구현한 프로젝트 모음입니다."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "닫기"
 
   # timeline:
   #   title: "경력 이력"
@@ -70,11 +68,11 @@ en: &DEFAULT_EN
   #       align: right
   #   end: "Be Part <br> of Our <br> Story!"
 
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
+about:
+  title: "소개"
+  text: "About"
+  body: "안녕하세요, 백엔드/AI 개발자 송근호입니다. 사용자 문제를 해결하는 서비스를 만드는 것을 좋아합니다."
+  section: about
 
   clients:
     section: clients
@@ -149,9 +147,9 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     name: "송근호"
-    Email: "jigu1993@naver.com"
-    Mobile: "010-2253-3951"
-    Address: "인천시 미추홀구 낙섬 동로 68-17 성동빌라 다동 401호"
+    email: "jigu1993@naver.com"
+    mobile: "010-2253-3951"
+    address: "인천시 미추홀구 낙섬동로 68-17 성동빌라 다동 401호"
 
 
     # social:
