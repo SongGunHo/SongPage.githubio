@@ -646,11 +646,17 @@ de: &DEFAULT_DE
         align: right
     end: "Seien Sie <br> Teil unserer <br> Geschichte!"
 
-  about:
-    title: "Über uns"
-    text: "Unsere Geschichte."
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: Ueber
+about:
+  title: "소개"
+  text: "AI · 백엔드 개발자 송근호"
+  body: |
+    안녕하세요, 백엔드 및 AI 개발자 송근호입니다.  
+    Spring Boot 기반 웹 개발을 중심으로 프로젝트를 진행해왔으며,  
+    최근에는 팀 프로젝트로 AI 분리수거 서비스를 구현했습니다.
+
+    클린 코드와 확장 가능한 아키텍처를 고민하며  
+    사용자에게 가치 있는 서비스를 만드는 개발자로 성장하고 있습니다.
+  section: about
 
   clients:
     section: Kunden

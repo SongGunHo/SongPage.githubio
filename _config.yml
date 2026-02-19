@@ -38,7 +38,7 @@ locale: "en-US" # See available languages in _data/sitetext.yml
 # ================================
 # 언어 설정
 # ================================
-locale: "en-US"
+locale: "en"
 
 # ================================
 # 구글 애널리틱스 (선택)
