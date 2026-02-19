@@ -14,27 +14,50 @@
 remote_theme: raviriley/agency-jekyll-theme
 plugins:
   - jekyll-remote-theme
+# 사이트 기본 도메인 (⚠️ 뒤에 경로 절대 붙이지 말 것)
+url: "https://songgunho.github.io"
+# 저장소가 프로젝트 페이지일 때 사용
+# 예: https://songgunho.github.io/SongPage.githubio
+baseurl: "/SongPage.githubio"
 
-url: "https://songgunho.github.io/SongPage.githubio/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-
+# ================================
+# 사이트 기본 정보 (원하는 값으로 수정 가능)
+# ================================
 title: 송근호
-email: your-email@example.com #this is also the email contact forms will go to
+email: your-email@example.com  # ← 실제 이메일로 변경 권장
 description: "Site description"
-author: Your Name
-# logo:     #optional, defaults to site title
-# path: assets\img\clients\creative-market.jpg
-# height: 60 #height in px, defaults to 52px
+author: 송근호
+footer:
+  name: "송근호"
+  email: "jigu1993@naver.com"
+  mobile: "010-2253-3951"      # ← 공개 원치 않으면 삭제 가능
+  address: "인천시 미추홀구"     # ← 상세 주소는 축소 권장
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
-analytics:
-  google: #Google Analytics tracking code here
+# ================================
+# 언어 설정
+# ================================
+locale: "en-US"
 
+# ================================
+# 구글 애널리틱스 (선택)
+# ================================
+analytics:
+  google:
+
+# ================================
+# 컬렉션 설정 (포트폴리오)
+# ================================
 collections:
   portfolio:
 
+# ================================
+# 마크다운 엔진
+# ================================
 markdown: kramdown
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
-# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-# formspree_form_path: "f/a_form_id"
+
+# ================================
+# Formspree (⚠️ 실제 ID로 교체해야 작동)
+# ================================
+formspree_form_path: "f/your-form-id"
